@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div><h3>ToDo app</h3></div>
+	<div>
+		<button onclick="handlers.addTodo()">Add</button>
+		<input type="text" id="newTodo"></input>
+	</div>
+
+	<div>
+		<button onclick="handlers.changeTodo()">Change</button>
+		<input type="number" id="changePosition" placeholder="position"></input>
+		<input type="text" id="changeText" placeholder="New Item"></input>
+	</div>
+
+	<div>
+		<button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+		<input type="number" id="toggleCompleted" placeholder="position"></input>
+	</div>
+	
+	<div>
+		<button onclick="handlers.toggleAll()">Toggle All</button>	
+	</div>
+
+	
+	<ul></ul>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
